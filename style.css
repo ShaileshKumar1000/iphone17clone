@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    
+}   
+#nav{
+    height:60px ;
+    width: 100%;
+    background-color: rgb(14, 15, 14);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+#nav h4{
+
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+}
+    
+#center{
+    height: 80%;
+    width: 100%;
+    
+    text-align: center;
+    padding:10px;
+    background-color: black;
+    background-image: url(./Screenshot\ .png);
+
+    background-size:cover;
+    background-position-y:95%;
+
+   
+}
+
+#center h1{
+    font-size: 60px;
+    color: aliceblue;
+    font-weight: 600;
+   
+    
+}
+#center h5{
+    
+    font-size: 40px;
+    color: aliceblue;
+    font-weight: 300;
+    
+
+   
+    
+}
+#links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding:20px ;
+    
+    
+}
+
+#links button{
+    color: aliceblue;
+    background-color: rgb(100, 58, 249);
+    padding:13px 24px ;
+    border-radius: 50px;
+    border: none;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+
+
+
